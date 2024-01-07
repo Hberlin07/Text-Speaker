@@ -1,0 +1,112 @@
+*{
+    background:#2B2A4C;
+    overflow: hidden ;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    font-size: 1.3cm;
+    text-align: center;
+    background: #EF4040;
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s linear infinite;
+  
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+}
+
+#textToRead{
+    width: 99%;
+    height: 60vh;
+    border: solid 3px #fff;
+    color: #ffff;
+    border-radius: 10px;
+    font-size: x-large;
+    outline: none;
+}  
+
+button{
+    height: 5vh;
+    width: 230px;
+    margin: 50px 560px;
+    border-radius: 3px;
+    border: solid 2.5px #fff;
+    color: #ffff;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5); 
+}
+
+button:hover{
+    background-color: #468B97;
+}
+
+.footer-text{
+    color: #fff;
+    font-size: 0.3cm;
+    margin-top: -3% ;
+    padding-left: 47%;
+}
+
+@media (max-width:400px){
+    h1{
+        font-size: .5cm;
+        
+    }
+    .T-space #textToRead{
+        margin: 10% 0 0 3%;
+        width: 90%;
+        height: 50vh;  
+    }
+    #speakButton{
+        margin: 18% 0 0 35%;
+        width:30% ;
+    }
+    .footer-text{
+        margin: 20% 0 0 -19%;
+    }
+}
+
+@media (max-width:768px){
+    h1{
+        font-size: .8cm;
+    }
+    .T-space #textToRead{
+        margin-left: 12%;
+        
+    }
+    #speakButton{
+        margin: 10% 0 0 36%;
+        font-size: medium;
+    }
+    .footer-text{
+        margin: 15%  0 0 -5%;
+    }
+}
+@media (max-width:1024px){
+    h1{
+        font-size: 1.4cm;
+    }
+    .T-space #textToRead{
+        width: 90%;
+        height: 60vh;
+        margin-left: 5%;
+        font-size: .6cm;
+    }
+    #speakButton{
+        margin: 10% 0 0 37%;
+        font-size: .7cm;
+    }
+    .footer-text{
+        font-size: .6cm;
+        margin: 9%  0 0 -11%;
+    }
+}
+
